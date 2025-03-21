@@ -29,7 +29,7 @@ export default async function Home() {
   );
 }
 
-function CheckCircleIcon(className: string) {
+function CheckCircleIcon({ className }: React.ComponentProps<"svg">) {
   return (
     <svg
       className={className}
