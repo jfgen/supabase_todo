@@ -41,7 +41,7 @@ export default function Error({
   );
 }
 
-function AlertCircleIcon(className: string) {
+function AlertCircleIcon({ className }: React.ComponentProps<"svg">) {
   return (
     <svg
       className={className}

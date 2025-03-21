@@ -31,7 +31,7 @@ export default function AddTodo() {
   );
 }
 
-function PlusIcon(className: string) {
+function PlusIcon({ className }: React.ComponentProps<"svg">) {
   return (
     <svg
       className={className}
